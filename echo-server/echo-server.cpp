@@ -22,9 +22,9 @@ void perror(const char* msg) { fprintf(stderr, "%s %ld\n", msg, GetLastError());
 vector<int> v;
 
 void usage() {
-	cout << "syntax: ts [-e[-b]] <port>\n";
+	cout << "syntax: echo-server [-e[-b]] <port>\n";
 	cout << "  -e : echo\n";
-	cout << "sample: ts 1234\n";
+	cout << "sample: echo-server 1234\n";
 }
 
 struct Param {

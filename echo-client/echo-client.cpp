@@ -18,8 +18,8 @@ void perror(const char* msg) { fprintf(stderr, "%s %ld\n", msg, GetLastError());
 #endif // WIN32
 
 void usage() {
-	cout << "syntax: tc <ip> <port>\n";
-	cout << "sample: tc 127.0.0.1 1234\n";
+	cout << "syntax: echo-client <ip> <port>\n";
+	cout << "sample: echo-cleint 127.0.0.1 1234\n";
 }
 
 struct Param {
